@@ -1,0 +1,143 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+/*HEADINGS*/
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bold;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*CONTAINERS*/
+.container-fluid{
+  padding: 7% 15% ;
+}
+/*sections*/
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+  background-color: white;
+}
+/*NAVIGATION BAR*/
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', 'Light' ;
+
+}
+/*TITLE SECTION */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.rotateimg45 {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/*FEATURE SECTION*/
+#features{
+  background-color: white;
+  position: relative;
+}
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+.feature-icon{
+  font-size: 60px;
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+.title-feature{
+  font-size: 1.5rem;
+}
+/*Testimonials section*/
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/*PRESS*/
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*princinc section*/
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .rotateimg45{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+/*call to action*/
+.lab la-apple{
+  background-color: white;
+}
+/*footer*/
+#footer{
+  border-color: white;
+}
+.footer-icon{
+  margin: 20px 10px;
+}
